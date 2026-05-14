@@ -3,7 +3,7 @@
 Sublime Text plugin that assigns a distinct background color to each line, cycling through a palette. Makes dense log files scannable at a glance.
 
 ![Sublime Text 4](https://img.shields.io/badge/Sublime%20Text-4-orange)
-![macOS](https://img.shields.io/badge/platform-macOS-lightgrey)
+![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey)
 
 ## What it does
 
@@ -13,13 +13,31 @@ Useful for reading long Kubernetes / application logs where every line is wall-t
 
 ## Installation
 
-Clone and symlink into Sublime's Packages folder:
+Clone the repo, then symlink it into Sublime's Packages folder for your platform.
 
+**macOS**
 ```bash
 git clone https://github.com/yourname/sublime-color-circlr.git
 
 ln -s "$(pwd)/sublime-color-circlr" \
   ~/Library/Application\ Support/Sublime\ Text/Packages/RainbowLines
+```
+
+**Linux**
+```bash
+git clone https://github.com/yourname/sublime-color-circlr.git
+
+ln -s "$(pwd)/sublime-color-circlr" \
+  ~/.config/sublime-text/Packages/RainbowLines
+```
+
+**Windows (PowerShell, run as Administrator)**
+```powershell
+git clone https://github.com/yourname/sublime-color-circlr.git
+
+New-Item -ItemType SymbolicLink `
+  -Path "$env:APPDATA\Sublime Text\Packages\RainbowLines" `
+  -Target "$PWD\sublime-color-circlr"
 ```
 
 Sublime hot-reloads packages — no restart needed.
@@ -77,6 +95,19 @@ Only the visible viewport ± 200 lines is colored at any time. On scroll, the co
 
 ## Uninstall
 
+Remove the symlink for your platform:
+
+**macOS**
 ```bash
 rm ~/Library/Application\ Support/Sublime\ Text/Packages/RainbowLines
+```
+
+**Linux**
+```bash
+rm ~/.config/sublime-text/Packages/RainbowLines
+```
+
+**Windows (PowerShell)**
+```powershell
+Remove-Item "$env:APPDATA\Sublime Text\Packages\RainbowLines"
 ```
