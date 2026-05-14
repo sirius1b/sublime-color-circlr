@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# Sublime Text
+*.sublime-workspace
+*.cache

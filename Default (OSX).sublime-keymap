@@ -1,0 +1,6 @@
+[
+    {
+        "keys": ["super+alt+r"],
+        "command": "rainbow_lines_toggle"
+    }
+]

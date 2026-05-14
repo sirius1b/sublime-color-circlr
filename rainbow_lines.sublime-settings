@@ -1,0 +1,11 @@
+{
+    "enabled": true,
+    "poll_interval_ms": 80,
+    "palette": "rainbow",
+    "palettes": {
+        "rainbow":  ["region.cyanish", "region.orangish", "region.purplish", "region.yellowish", "region.bluish", "region.greenish"],
+        "warm":     ["region.redish", "region.orangish", "region.yellowish", "region.pinkish"],
+        "cool":     ["region.cyanish", "region.bluish", "region.greenish", "region.purplish"],
+        "two-tone": ["region.cyanish", "region.orangish"]
+    }
+}

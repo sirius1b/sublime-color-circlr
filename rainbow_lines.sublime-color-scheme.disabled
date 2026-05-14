@@ -1,0 +1,13 @@
+{
+    "name": "Rainbow Lines",
+    "variables": {},
+    "globals": {},
+    "rules": [
+        { "scope": "rainbow.line.0", "background": "#1d2b2b" },
+        { "scope": "rainbow.line.1", "background": "#2b2218" },
+        { "scope": "rainbow.line.2", "background": "#1d1d2d" },
+        { "scope": "rainbow.line.3", "background": "#2b2b18" },
+        { "scope": "rainbow.line.4", "background": "#251828" },
+        { "scope": "rainbow.line.5", "background": "#182b20" }
+    ]
+}

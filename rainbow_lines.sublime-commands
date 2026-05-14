@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "Rainbow Lines: Toggle (this file)",
+        "command": "rainbow_lines_toggle"
+    },
+    {
+        "caption": "Rainbow Lines: Toggle Global (all files)",
+        "command": "rainbow_lines_toggle_global"
+    },
+    {
+        "caption": "Rainbow Lines: Select Palette",
+        "command": "rainbow_lines_select_palette"
+    },
+    {
+        "caption": "Rainbow Lines: Cycle Palette",
+        "command": "rainbow_lines_cycle_palette"
+    }
+]
